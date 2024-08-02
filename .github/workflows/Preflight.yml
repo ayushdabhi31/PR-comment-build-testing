@@ -2,8 +2,8 @@
 name: Preflight
 
 on:
-  - pull_request
-  - push
+  pull_request:
+    branches: [ development ]
 
 jobs:
   preflight-job:
